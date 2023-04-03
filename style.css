@@ -20,7 +20,7 @@ aside{
 
 section{
     width: 80%;
-    height: 75vh;
+    /* height: 75vh; */
     perspective: 100px;
     transform-style: preserve-3d;
     position: relative;
@@ -189,7 +189,7 @@ input[type="checkbox"] {
     justify-content: space-between;
     padding: 0.5rem 0;
 }
-@media only screen and (min-width: 426px) and (max-width: 768px){
+/* @media only screen and (min-width: 426px) and (max-width: 768px){
     main{
         flex-direction: column;
         width: 100%;
@@ -233,9 +233,9 @@ input[type="checkbox"] {
     .bottom button{
         padding: 0.5rem 1rem;
     }
-}
+} */
   
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 800px){
     main{
         flex-direction: column;
         width: 100%;
@@ -266,7 +266,7 @@ input[type="checkbox"] {
     }
 
     .middle {
-        height: 75vh;
+        height: 80vh;
         width: 80%;
         margin: auto;
     }
