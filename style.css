@@ -182,6 +182,14 @@ input[type="checkbox"] {
     cursor: not-allowed;
 }
 
+::-webkit-scrollbar-corner{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 5px;
+}
+
 .aside li{
     width: 90%;
     margin-left: 0.5rem;
