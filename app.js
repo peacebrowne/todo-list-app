@@ -117,7 +117,6 @@ function completedTodos(ele){
     }
 }
 
-
 /**
  * Gets the value of the targeted item in the todo list and insert the value in the input field for editing
  * and changes the add button value to add
