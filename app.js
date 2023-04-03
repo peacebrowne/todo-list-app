@@ -57,9 +57,11 @@ function deleteTodos(ele){
 
 search.addEventListener('keyup', searchTodos)
 function searchTodos(ev){
-    const char = ev.key
+    const char = ev.target.value.toLocaleLowerCase()
 
-    Array.from(todo_list.children).forEach(ele => {
+    const items = document.querySelectorAll('ul li')
+
+    Array.from(items).forEach(ele => {
         if(ele.children[1].textContent.includes(char)){
             ele.style.display = 'flex'
         }else{
