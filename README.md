@@ -34,6 +34,4 @@ This app was built using the following technologies:
 ## Acknowledgements
 Thank you to the following resources for providing inspiration and guidance:
 
-TodoMVC
-W3Schools
-MDN Web Docs
+Kwagei Innovator's Training
