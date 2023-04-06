@@ -20,7 +20,7 @@ aside{
 
 section{
     width: 80%;
-    height: 81vh;
+    /* height: 81vh; */
     perspective: 100px;
     transform-style: preserve-3d;
     position: relative;
@@ -223,6 +223,7 @@ input[type="checkbox"] {
     section{
         width: 100%;
         padding: 0;
+        height: 81vh;
     }
 
     h3,h1{
@@ -253,3 +254,33 @@ input[type="checkbox"] {
     }
 }
 
+/* #update-profile-picture{
+    width: 7rem;
+    height: 7rem;
+    margin: 0.5rem auto;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+}
+#update-profile-picture input{
+    position: absolute;
+    border: 2px solid black;
+    width: 0;
+    right: -0.2rem;
+    bottom: 0;
+    height: 40px;
+    cursor: pointer;
+    opacity: 0.0;
+    z-index: 2;
+}
+
+#update-profile-picture img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+} */
